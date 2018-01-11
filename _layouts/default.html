@@ -22,12 +22,24 @@
       {% endif %}
     </section>
 
+    {% if page.is_post %}
+    <div class="side-menu">
+      <h3><a href="/">Main page</a></h3>
+      <h3>Posts</h3>
+	{% for post in site.posts %}
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+	  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+	{% endfor %}
+    </div>
+    {% endif %}
+
     <section class="main-content">
       {{ content }}
 
       <footer class="site-footer">
 
-	<span class="site-footer-credits">Blog by <a href="{{ site.author_site }}">{{ site.author }}</a>  generated using <a href="https://pages.github.com">GitHub Pages</a>.</span>
+	<span class="site-footer-credits">Blog by <a href="{{ site.author_site }}">{{ site.author }}</a>  generated using <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com">GitHub Pages</a>.</span>
 	<br><br>
 	{% include icon-github.html username=site.github_username %}<br>
 	{% include icon-twitter.html username=site.twitter_username %}
