@@ -9,6 +9,12 @@
     float: left;
     width: 25%;
 }
+.side-menu h3 {
+    margin: 1rem 0;
+}
+.side-menu h4 {
+    margin: 0.5rem 0;
+}
 
 @media screen and (min-width: 64em) {
   .side-menu {
