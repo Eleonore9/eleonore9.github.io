@@ -12,7 +12,7 @@ tags: [openvisconf, conference, drawing]
 
 I recently attended [OpenVisConf](http://openvisconf.com/) (the conference for opensource data visualisation) in Paris. I was super excited as I had followed the conference from afar (it used to be in Boston) for a few years.
 
-![The logo for the OpenVisConf 2018](/assets/logo-openvisconf.png)
+![The logo for the OpenVisConf 2018]({{"/assets/logo-openvisconf.png" | absolute_url}})
 
 Another thing I'm excited about since I discovered it a little while ago is **sketchnoting**.
 
@@ -29,7 +29,7 @@ This is why I (attended this conference and) want to learn to sketchnote, but be
 
 Unfortunately I wasn't organised enough to rehearse before the conference. But I was lucky to get a sketchnoting guide zine from Malwine :)
 
-![Picture of sketchnoting zines with emojis](/assets/sketchnoting-guide-small.jpeg)
+![Picture of sketchnoting zines with emojis]({{"/assets/sketchnoting-guide-small.jpeg" | absolute_url}})
 
 I also had a motivating discussion with fellow Stockholm based developer friend [Mariana](https://twitter.com/MarianaBocoi) who shared her experience of starting to sketchnote at EuroClojure 2017.
 
@@ -55,7 +55,7 @@ How I solved my issues:
 
 Here are my fave ones from what I did for OpenVisConf:
 
-![Picture of three sketchnotes for talks at OpenVisConf](/assets/first-sketchnotes.jpeg)
+![Picture of three sketchnotes for talks at OpenVisConf]({{"/assets/first-sketchnotes.jpeg" | absolute_url}})
 
 Adding small drawings was a good compromise (especially because the need to represent the visual aspects of the talk accurately faded with time).
 And I got positive feedback :)
