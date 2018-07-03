@@ -17,6 +17,7 @@ I've been into data visualisation for years, and D3 being the tool of choice for
 I don't remember how my D3 journey started, but I think my first plots where created during hackathons and involved searching for examples online and reproducing them using datasets of interest. I then took a workshop by [Cambridge Coding Academy](http://cambridgecoding.com/) which was really good for learning the basics. Since then I've used D3 with the help of other people's online tutorials. I've also mostly tried out tools (Pandas, Bokeh, Seaborn, Leaflet, Folium, QGIS, Altair, Vega...) that can create nice visualisations easily as a way around D3's steep learning curve.
 As I'm now freelancing, I figured I could steer my work towards professional data visualisation, which means D3 is now a critical tool to master.
 Here is real life picture of me going up D3 learning curve:
+
 ![Person cycling up a steep hill]({{"/assets/d3_learning_curve.jpg" | absolute_url}})
 
 Because I learned that being lazy is a good trait in a programmer and because I have tons of ideas for projects involving data visualisation that I can't wait to work on, here's my plan:
@@ -35,6 +36,7 @@ Let's focus on the first step of my plan for now!
 
 I'm thinking of creating code samples as [gists](https://help.github.com/articles/about-gists/)/[locks](https://bl.ocks.org/-/about)[1] that will ultimately be gathered inside a code repository. They'd be named after the visualisation they enable and they'd be well documented so that others can use them, too.
 Oh, and here I am dreaming of data visualisations:
+
 ![Person at a desk dreaming of plots and maps]({{"/assets/d3_dream_viz.jpg" | absolute_url}})
 
 ### Action plan
