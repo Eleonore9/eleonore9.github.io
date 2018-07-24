@@ -2,7 +2,7 @@
 layout: default
 title:  "Visualising a data viz conference"
 date:   2018-05-31
-category: sketchnotes
+category: sketchnotes/zines
 tags: [openvisconf, conference, drawing]
 ---
 
