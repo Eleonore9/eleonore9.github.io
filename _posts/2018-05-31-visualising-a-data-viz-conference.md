@@ -96,6 +96,6 @@ ___
 
 ### Data viz inspiration
 
-* OpenVisConf was super inspiring to me! I'll add a link to the talks videos here once they're online :)
+* OpenVisConf was super inspiring to me! [Here](https://www.youtube.com/watch?v=fp-WNqaQG0s&list=PL0t7o-LDSDFbNzmv7ULnuksJ3h1LZI18j) is a link to the talks videos on YouTube :)
 * The opening keynote at OpenVisConf 2018 was made by [Moritz Stefaner](https://twitter.com/moritz_stefaner) who presented a project part of the "1, 2, 3 DATA" exhibition in Paris. I went to see it and was very inspired as well!
 You can look at the collection of awesome data viz projects [here](https://123data.paris/collection)
