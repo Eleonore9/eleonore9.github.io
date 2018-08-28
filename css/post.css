@@ -1,13 +1,19 @@
 /* default header */
-.website-link {
-    float: right;
-    margin-right: 1.5rem;
+.project-name a {
+    color: white;
+    text-decoration: none;
+}
+
+.project-name a:hover {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 /* Left side menu */
 .side-menu {
     float: left;
-    width: 25%;
+    width: 20%;
+    padding: 1%;
 }
 .side-menu h3 {
     margin: 1rem 0;
@@ -17,19 +23,14 @@
 }
 
 @media screen and (min-width: 64em) {
-  .side-menu {
-      padding: 2rem 4rem 1rem 6rem;
-      margin: 0 auto;
-      font-size: 1.1rem;
-    }}
+    }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 .side-menu {
-      padding: 2rem 2rem 1rem 4rem;
-      font-size: 1.1rem;
+    display: none;
     }}
 
 @media screen and (max-width: 42em) {
 .side-menu {
-      padding: 2rem 1rem 1rem 1rem;
-      font-size: 1rem; }}
+      display: none
+}}
