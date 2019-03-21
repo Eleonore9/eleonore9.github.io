@@ -10,7 +10,6 @@ layout: default
   {{ content }}
 
   {% if site.posts.size > 0 %}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {% for post in site.posts %}
         <span class="post-meta">
@@ -22,23 +21,8 @@ layout: default
 	</span>
       {% endfor %}
     </ul>
-
-    <h2 class="post-list-heading">{{ "Categories" }}</h2>
-    <ul class="post-list">
-      {% for category in site.categories %}
-      <span><h3>{{ category | first }}</h3>
-	<ul>
-	  {% for posts in category %}
-	    {% for post in posts %}
-              <span class="post-meta"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></span>
-	    {% endfor %}
-          {% endfor %}
-	</ul>
-      </span>
-      {% endfor %}
-    </ul><br>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <br/>
+    <b><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p></b>
     {% endif %}
 
 </div>
